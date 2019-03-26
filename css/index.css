@@ -84,12 +84,12 @@ h1, h2, h3, h4, h5 {
         since this is stretch I'll leave it as a clusterfuck
     */
 
-.container {
+    /* COMMENTED OUT for mobile first clarity */
+/* .container {
 	width: 800px;
 	margin: auto;
 	font-size: 10px;
-	/* border: 2px solid red; */
-}
+} */
 
 
 /* header CSS */
@@ -235,8 +235,8 @@ address {
 }
 
 /* Services CSS classes */
-
-.services-header-img {
+/* COMMENTED OUT for mobile first clarity */
+/* .services-header-img {
 	width: 800px;
 	padding: 10px 0px 10px 0px;
 }
@@ -259,7 +259,7 @@ address {
 	border: 1px solid black;
 	padding: 10px;
 	margin-top: 15px;
-}
+} */
 
 .learn-more-button {
 	background-color: white;
@@ -849,7 +849,8 @@ h1 {
 	/* justify-self: flex-end; */
 	/* display: flex; */
 	/* justify-content: flex-end; */
-	text-align: right;
+    text-align: right;
+    display: flex;
 
 }
 
